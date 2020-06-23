@@ -29,7 +29,7 @@ a {
 }
 
 .container-head {
-  width: 100%;
+  width: 1170px;
   margin: 0 auto;
 }
 .container {
@@ -214,14 +214,16 @@ width: 100%
   font-weight: normal;
 }
 
+.menu-icon {
+  display: none
+}
 
 .menu-icon {
   color: white;
   float: right;
   font-size: 25px;
   padding: 21px 0;
-  display: none;f
-}
+ }
 /*reni finish*/
 
 /* prillia start */
