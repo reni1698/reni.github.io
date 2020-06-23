@@ -187,7 +187,8 @@ body {
 }
 
 .lesson-icon {
-  position: relative;
+  position: absolute;
+  width: 100%;
 }
 
 .lesson-icon p {
