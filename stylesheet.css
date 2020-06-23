@@ -161,14 +161,30 @@ body {
   font-family: "Lucida Grande";
 }
 
-.lessons {
-  display:flex;
-
+a {
+  text-decoration: none;
 }
 
-.lesson-icon {
-  flex: auto;
+.clear {
+  clear: left;
+}
+
+.container {
+width: 100%
+  max-width: 1170px;
+ }
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
   width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
 }
 
 .lesson-wrapper {
@@ -190,14 +206,13 @@ body {
 }
 
 .lesson {
-  float: none;
+  float: left;
   width: 25%;
 }
 
 .lesson-icon {
-  position: absolute;
-  width: 100%;
- }
+  position: relative;
+}
 
 .lesson-icon p {
   position: absolute;
@@ -218,14 +233,13 @@ body {
   font-weight: normal;
 }
 
-.menu-icon {
-  display:none
-}
+
 .menu-icon {
   color: white;
   float: right;
   font-size: 25px;
   padding: 21px 0;
+  display: none;
 }
 
 
