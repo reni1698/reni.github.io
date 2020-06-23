@@ -22,12 +22,8 @@
     margin-bottom: 50px;
   }
 
-  .lesson-icon {
-  flex: auto;
-  width: 100%
-  }
+ 
 
-}
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
@@ -39,11 +35,7 @@
     width: 100%;
   }
 
-  .lesson-icon{
-    flex-wrap: wrap;
-    width: 50%
-  }
-
+ 
   footer {
     text-align: center;
   }
