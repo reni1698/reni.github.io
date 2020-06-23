@@ -22,7 +22,10 @@
     margin-bottom: 50px;
   }
 
- 
+  .lesson-icon {
+  flex: auto;
+  width: 100%
+  }
 
 
 /* Untuk Smartphone */
