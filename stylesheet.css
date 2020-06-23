@@ -1,0 +1,357 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Reset CSS (JANGAN DIHAPUS) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+/* reidevi start */
+.top-wrapper {
+  background-image:url(https://p0.pikist.com/photos/164/324/landscape-morning-mountain-volcano-java-island-indonesia.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 180px 20px 100px 0;
+  color: white;
+  text-align: right;
+}
+
+.container-head {
+  width: 100%;
+  margin: 0 auto;
+}
+.container {
+  width: 100%;
+  background-color: none;
+  margin: 0 auto;
+}
+
+.top-wrapper h1 {
+  font-size: 80px;
+  background-color: none;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  letter-spacing: 4.5px;
+  line-height: 1;
+  opacity: 1;
+  margin-bottom: 1px;
+}
+.top-wrapper h2 {
+  font-size: 40px;
+  font-family: Calibri, Helvetica, Arial, sans-serif;
+  letter-spacing: 6.3px;
+  opacity: 0.8;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.top-wrapper p {
+  font-size: 23px;
+  margin-bottom: 3px;
+  opacity: 0.7;
+}
+
+.btn-wrapper {
+ margin: 10px 0;
+
+  }
+
+.facebook {
+background-color: none;
+}
+
+.twitter {
+background-color: none;
+ }
+
+.instagram {
+  background-color: none;
+}
+
+ .btn {
+ padding: 12px 12px;
+ color: white;
+ display: inline-block;
+ opacity: 0.8;
+ border-radius: 4px;
+ }
+
+ .btn:hover {
+ opacity: 1;
+ }
+
+ .fa {
+ margin-right: 5px;
+ }
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(145, 86, 27, 0.6);
+  position: fixed;
+  top: 0px;
+  z-index: 10;
+}
+
+.logo {
+ width: 62px;
+ margin-top: -1px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+}
+
+.header-right li {
+  float:left;
+}
+
+.belum {
+  float:left;
+  line-height: 65px;
+  font-color: black;
+}
+
+.signup {
+  float: left;
+  transition: all 0.5s;
+  line-height: 65px;
+  padding-left: 5px;
+  padding-right: 13px;
+  color: white;
+  display: block;
+}
+
+.signup:hover {
+  font-size: 20px;
+}
+
+.login {
+  background-color: rgba(4, 56, 112, 0.6);
+  transition: all 0.5s;
+  line-height: 65px;
+  padding: 0 10px;
+  color: white;
+  display: block;
+  font-size: 20px;
+}
+
+.login:hover {
+  background-color: rgba(37, 109, 185, 0.96);
+  font-size: 22px;
+}
+
+/* reidevi finish */
+
+/*reni start*/
+body {
+  font-family: "Lucida Grande";
+}
+
+
+.container {
+width: 100%
+ }
+
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;f
+}
+/*reni finish*/
+
+/* prillia start */
+
+.lesson-wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.heading h2 {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.lessons {
+  display:flex;
+
+}
+
+.lesson-icon {
+  flex: auto;
+  width: 100%;
+}
+
+.clear {
+  clear: left;
+}
+
+/* prillia finish*/
+
+/*piscki start*/
+body {
+  margin: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  background-color: whitesmoke;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #2a4c8c;
+  cursor: pointer;
+  box-shadow: 0 6px #999;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+/*piscki finish*/
+
+/*dini start*/
+body {
+  background: #ffffff;
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+.footer {
+  overflow:hidden;
+  text-align:center;
+}
+.footer_area img{
+  width: 200px;
+}
+
+.footer div.col {
+  width:22%;
+  display:inline-block;
+  padding:1% 0;
+  text-align:left;
+}
+
+.footer div.col:last-child {
+  border-right:none;
+}
+
+.footer h2 {
+  font:bold 14px Arial,Sans-Serif;
+  margin:0px 0px 10px;
+}
+
+.footer ul {
+  margin:0px 0px;
+  padding:0px 0px;
+  overflow:hidden;
+}
+
+.footer li {
+margin:0px 0px;
+padding:0px 0px;
+}
+/*dini finish*/
