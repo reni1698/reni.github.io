@@ -161,7 +161,10 @@ body {
   font-family: "Lucida Grande";
 }
 
+.lessons {
+  display:flex;
 
+}
 
 .lesson-wrapper {
   padding-bottom: 80px;
