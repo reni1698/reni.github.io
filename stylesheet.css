@@ -240,16 +240,6 @@ body {
   padding-bottom: 50px;
 }
 
-.lessons {
-  display:flex;
-
-}
-
-.lesson-icon {
-  flex: auto;
-  width: 100%;
-}
-
 .clear {
   clear: left;
 }
