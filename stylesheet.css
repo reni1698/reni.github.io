@@ -28,13 +28,12 @@ a {
   text-align: right;
 }
 
-.container-head {
-  width: 1170px;
-  margin: 0 auto;
+
 }
 .container {
+  max-width:1170px;
   width: 100%;
-  background-color: none;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
@@ -163,10 +162,6 @@ body {
 }
 
 
-.container {
-width: 100%
- }
-
 
 .lesson-wrapper {
   padding-bottom: 80px;
@@ -215,23 +210,18 @@ width: 100%
 }
 
 .menu-icon {
-  display: none
+  display:none
 }
-
 .menu-icon {
   color: white;
   float: right;
   font-size: 25px;
   padding: 21px 0;
- }
+}
 /*reni finish*/
 
 /* prillia start */
 
-.lesson-wrapper {
-  width: 100%;
-  margin: 0 auto;
-}
 
 .heading h2 {
   text-align: center;
@@ -262,11 +252,7 @@ body {
 }
 
 
-.container {
-  width: 1170px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
+
 
 .btn {
   padding: 12px 24px;
