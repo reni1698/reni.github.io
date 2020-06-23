@@ -182,7 +182,7 @@ body {
 }
 
 .lesson {
-  float: left;
+  float: none;
   width: 25%;
 }
 
