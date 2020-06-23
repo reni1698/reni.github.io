@@ -187,7 +187,8 @@ body {
 }
 
 .lesson-icon {
-  position: relative;
+  position: absolute;
+  width: 100%;
  }
 
 .lesson-icon p {
@@ -219,16 +220,7 @@ body {
   padding: 21px 0;
 }
 
-@media (max-width: 1000px) {
-  .lesson { width: 50%;
-  }
-}
 
-@media (max-width: 670px) {
-  .lesson {
-    width:100%;
-  }
-}
 /*reni finish*/
 
 /* prillia start */
